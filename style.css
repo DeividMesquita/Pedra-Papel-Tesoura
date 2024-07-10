@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24272E;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+header>h1 {
+    color: #24272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.barra-pontos {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 6px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background-color: #e2584d;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#cpu-label {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+}
+
+.resultado {
+    font-size: 40px;
+    color: white;
+}
+
+.resultado > p{
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+}
+
+.escolhas {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.escolha {
+    padding: 10px;
+    margin-top: 0 20px;
+    border-radius: 150px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.escolha:hover {
+    cursor: pointer;
+    background: white;
+}
+
+img {
+    width: 150px;
+}
+
+#mensagem {
+    text-align: center;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
